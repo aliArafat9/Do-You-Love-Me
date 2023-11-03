@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/4.jpeg);
+    background-image: url(img/3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ h1 {
       .container #yes-button #no-button {
         display: flex;
       }
-  
+   
       .container button #yes-button #no-button {
         margin: 0 10px;
       }
