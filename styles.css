@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/2.jpeg);
+    background-image: url(img/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,23 +17,6 @@ h1 {
     padding: 15px 32px;
     text-decoration: none;
 }
- 
-.container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
-      }
-  
-      .container #yes-button #no-button {
-        display: flex;
-      }
-   
-      .container button #yes-button #no-button {
-        margin: 0 10px;
-      }
-
 
 #yes-button {
     background-color: grey;
@@ -41,7 +24,7 @@ h1 {
     color: black;
     position: absolute;
     top: 60vh;
-    left: 33vw;
+    right: 66vw;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -75,7 +58,7 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);   
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Tahoma', sans-serif;
     font-size: 14px;
     text-align: center;
@@ -84,8 +67,32 @@ h1 {
     user-select: none;
     transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
+
 #no-button:hover {
     background-color: #d40000;
     border-color: #b30000;
     color: #ffffff;
+}
+
+@keyframes identifier {}
+
+@media screen and (max-width:2020px) {
+    body {
+        background-image: url(img/2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        font-size: 75px;
+        }
+}
+@media screen and (max-width:1180px) {
+    body {
+        background-image: url(img/3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+    font-size: 50px;
+    }
 }
