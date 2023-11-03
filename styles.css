@@ -12,18 +12,35 @@ h1 {
     display: block;
     text-align: center;
     position: relative;
-    top: 25vh;
+    top: 20vh;
     color: white;
     padding: 15px 32px;
     text-decoration: none;
 }
+ 
+.container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+  
+      .container #yes-button #no-button {
+        display: flex;
+      }
+  
+      .container button #yes-button #no-button {
+        margin: 0 10px;
+      }
+
 
 #yes-button {
     background-color: grey;
     border: 2px solid black;
     color: black;
     position: absolute;
-    top: 40vh;
+    top: 60vh;
     left: 33vw;
     padding: 15px 32px;
     text-align: center;
@@ -51,7 +68,7 @@ h1 {
     border: 2px solid black;
     color: black;
     position: absolute;
-    top: 40vh;
+    top: 60vh;
     left: 66vw;
     padding: 15px 32px;
     text-align: center;
